@@ -3,4 +3,5 @@ def hello() -> str:
 
 
 from .matrix_addition import *
+from .matrix_multiplication import *
 from .pauli_matrices import *
