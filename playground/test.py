@@ -5,4 +5,4 @@ print(fp.pauli_x())
 print(fp.pauli_y())
 print(fp.pauli_z())
 
-assert (fp.pauli_x() @ fp.pauli_y() == 1j * fp.pauli_z()).all() 
+assert (fp.pauli_x() @ fp.pauli_y() == 1j * fp.pauli_z()).all()
