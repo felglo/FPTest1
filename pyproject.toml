@@ -1,0 +1,14 @@
+[project]
+name = "fptest1"
+version = "0.1.0"
+description = "Erstes Testrepo für FP Blockpraktikum"
+readme = "README.md"
+authors = [
+    { name = "Felix Gloistein", email = "felixgloistein@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
